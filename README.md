@@ -1,9 +1,9 @@
 # stock-open-api-guide
 
-股票API、实时行情API与接入示例
+韩国市场股票API、实时行情API与接入示例
 
 ## 项目定位
-本仓库聚焦「股票API」接入落地，面向以下场景：
+本仓库聚焦「韩国股票API」接入落地，面向以下场景：
 - 量化交易策略实时订阅与告警
 - 行情看板与交易终端前端展示
 - 研究系统历史 K 线回测与因子验证
@@ -34,6 +34,11 @@
 完整与最新清单请以官方页面为准：
 - [https://kun.pro/products](https://kun.pro/products)
 
+## 本仓库重点市场
+- 主区域：东北亚
+- 重点国家/市场：韩国(KR)
+- 重点交易所：KRX
+
 ## Quick Start
 1. 获取访问 Token 并确认鉴权方式
 2. 选择接入方式（WebSocket 或 REST）
@@ -50,13 +55,14 @@
 <code>{"action":"subscribe","market":"KR","symbol":"KRX:000040"}</code>
 
 ## 关键词与主题
-- keyword: 股票API
-- topics:stock-api, market-data, quote-api, websocket, kline
+- keyword: 韩国股票API
+- topics:stock-api, market-data, quote-api, websocket, kline, kr-market
 
 ## 文档与接入
 - 开发文档中心：[https://kun.pro/docs.html](https://kun.pro/docs.html)
 - 官网入口：[https://kun.pro](https://kun.pro?utm_campaign=kun_pro_api_seo&utm_content=shenfu8_stock-open-api-guide&utm_medium=readme&utm_source=github)
 - 接入咨询：请通过官网页面提交需求（支持 API 评估与接入建议）
+- Telegram：[@kunpeng](https://t.me/kunpeng)
 
 ## 推荐关键词（站点统一）
 - 鯤鵬數據 API
